@@ -1,0 +1,155 @@
+/* Empty. Add your own CSS if you like */
+
+#topPicture{
+    width: 62px;
+    height: 62px;
+    background: url('../img/Icons.png') 164px 188px;
+    margin-top: 10%;
+}
+
+.loginDiv{
+    text-align: center; 
+    align-content: center; 
+    align-self: center;
+}
+
+.loginContent{
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.loginContent input{
+    margin: 0px auto;
+}
+.radioTable{
+    margin: 0px auto;
+}
+
+.radioTable td{
+}
+
+.radio-icon{
+    color: transparent;
+}
+
+.phoneNumber{
+    margin: 0px auto;
+    margin-top: 2%;
+}
+
+.inputField{
+    margin: 0px auto;
+    border: 1px solid #dcdcdc; 
+    border-radius: 5px;
+    width: 80%;
+}
+
+.inputField input{
+    padding-left: 2%;
+    width: 100%;
+}
+
+.emailinputField{
+    margin: 0px auto;
+    border: 1px solid #dcdcdc; 
+    border-radius: 5px;
+    width: 80%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    padding: 2%;
+}
+.emailinputField input{
+    width: 94%;
+    margin-left: 5%;
+}
+
+.phoneNumberTable{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    width: 100%;
+}
+
+.countryCode{
+    text-decoration: none;
+    color: #9a9a9a;
+}
+
+.custom-popup.popup-container .popup{
+    background-color: #ffffff;
+    border-radius: 2%;
+}
+
+.custom-popup.popup-container .popup .popup-head{
+    text-align: left;
+    font-weight: bolder;
+}
+.custom-popup.popup-container .popup .countryCodeTable{
+    width: 100%;
+    float: right;
+    margin-left: -11px;
+}
+
+.custom-popup.popup-container .popup .countryCodeTable .countryCodeInput{
+    background-color: transparent;
+    padding-left: 2%;
+}
+
+.custom-popup.popup-container .popup .countryCodeTable tr td{
+    padding: 2%;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.smsnote{
+    color: #9a9a9a;
+}
+.nextButton{
+    display: block;
+    margin: 0px auto;
+    padding: 3%;
+    color: #c3ddf4;
+    border: 1px solid #3897f1;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 80%;
+}
+
+.alreadyd{
+    position:absolute;
+    margin-bottom: -100px;
+    width:100%;
+}
+
+.already{
+    margin: 0px auto;
+    color: #9a9a9a;
+    width: 500px;
+    margin-bottom: 0px;
+}
+
+.emailAddress{
+    display: none;
+}
+#signupEmail{
+    border: 1px solid red;
+}
+
+.radioTable{
+    border-bottom: 1px solid #9a9a9a;
+}
+
+.radioTable
+{
+    border-collapse: separate;
+}
+
+.tdborderbottom{
+    border-bottom: 5px solid black;
+    font-weight: 900;
+}
+
+.phonenumberradio, .emailradio{
+    color: #9a9a9a;
+    font-weight: 600;
+}

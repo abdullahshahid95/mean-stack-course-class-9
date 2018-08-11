@@ -1,0 +1,79 @@
+<div ng-controller="loginController" class="loginDiv">
+    <img src="../img/transparentpixel.png" id="topPicture">
+    <!-- <radio-group>
+            <ion-radio value="1">PHONE NUMBER</ion-radio>
+            <ion-radio value="2">EMAIL ADDRESS</ion-radio>
+    </radio-group> -->
+
+    <!-- <ion-row radio-group>
+        <ion-col>
+            <ion-radio value="1">PHONE NUMBER</ion-radio>
+        </ion-col>
+        <ion-col>
+            <ion-radio value="2">EMAIL</ion-radio>
+        </ion-col>
+    </ion-row> -->
+    <div class="loginContent">
+        <table class="radioTable">
+            <tr radio-group>
+                <td class="tdborderbottom" id="phonetd">
+                    <ion-radio ng-value="1" style="border: 0;" id="hell1" on-tap="" ng-model="selectO" ng-click="selectOnClick()" class="phonenumberradio">PHONE NUMBER</ion-radio>
+                </td>
+                <td id="emailtd">
+                    <ion-radio ng-value="2" style="border: 0;" id="hell2" ng-model="selectO" ng-click="selectOnClick()" class="emailradio">EMAIL ADDRESS</ion-radio>
+                </td>
+            </tr>
+        </table>
+
+        <div class="phoneNumber" id="phoneNumberi">
+            <div class="inputField">
+                <table class="phoneNumberTable">
+                        <tr>
+                            <td style="border-right: 1px solid #dcdcdc; vertical-align: middle;">
+                                <strong><a href="javascript:;" class="countryCode" on-tap="showPopup()">{{selectedCode}}</a></strong>
+                            </td>
+                            <td>
+                                <input type="tel" placeholder="Phone number" ng-change="onChangeInput(1)" ng-model="signupPhone" id="signupPhonei">
+                            </td>
+                        </tr>
+                </table>
+            </div>
+            <small class="smsnote">You may receive SMS updates from instagram and can opt out any time.</small>
+        </div>
+        <div class="emailAddress" id="emailAddressi">
+            <div class="emailinputField">
+                <input type="email" placeholder="Email address" ng-change="onChangeInput(2)" ng-model="signupEmail" id="signupemaili" class="signupemail">
+            </div>
+        </div>
+        <button id="nextButtoni" class="nextButton"><strong>Next</strong></button>
+    </div>
+
+    <div class="alreadyd">
+        <hr>
+        <small class="already">Alread have an account? <strong>Log in.</strong></small>
+    </div>
+
+    <!-- <div class="list">
+        <label class="item item-input">
+          <input type="text" placeholder="First Name">
+        </label>
+        <label class="item item-input">
+          <input type="text" placeholder="Last Name">
+        </label>
+        <label class="item item-input">
+          <textarea placeholder="Comments"></textarea>
+        </label>
+      </div> -->
+</div>
+<!-- <table class="countryCodeTable">
+    <tr>
+        <td>
+            <input type = "text" placeholder = "Country name or code" class="countryCodeInput" ng-model = "data.model">
+        </td>
+    </tr>
+    <tr ng-repeat="countryCode in countryCodes">
+        <td>
+            countryCode.country (countryCode.code)
+        </td>
+    </tr>
+</table> -->
